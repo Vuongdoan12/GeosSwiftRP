@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'GeoSwiftRP'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of GeoSwiftRP.'
+  s.summary          = 'Easily handle a geometric object model (points, linestrings, polygons etc.) and related
+  topological operations (intersections, overlapping etc.).'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,16 +31,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Vuongdoan12/GeosSwiftRP.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'GeoSwiftRP/Classes/**/*'
 
-  s.platforms = {
-    ios: '9.0',
-    osx: '10.9',
-    tvos: '9.0',
-    watchos: '2.0',
-  }
 
   s.source_files = 'Classes/Sources/**/*.swift'
   s.dependency 'geos', '~> 8.1'
