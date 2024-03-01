@@ -413,7 +413,7 @@ public extension GeometryConvertible {
         // 8, which seems to produce an "expected" result. See https://github.com/GEOSwift/GEOSwift/issues/216
         //
         // returns nil on exception
-        guard let resultPointer = GEOSBuffer_r(context.handle, geosObject.pointer, width, 8) else {
+        guard let resultPointer = GEOSBufferWithStyle_r(context.handle, geosObject.pointer, width, 8, 1, 2, 10) else {
             throw GEOSError.libraryError(errorMessages: context.errors)
         }
         do {
