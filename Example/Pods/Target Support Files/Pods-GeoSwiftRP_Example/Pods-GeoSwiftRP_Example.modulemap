@@ -1,0 +1,6 @@
+framework module Pods_GeoSwiftRP_Example {
+  umbrella header "Pods-GeoSwiftRP_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

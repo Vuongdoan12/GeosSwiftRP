@@ -1,0 +1,16 @@
+PODS:
+  - GeoSwiftRP (0.1.0)
+
+DEPENDENCIES:
+  - GeoSwiftRP (from `../`)
+
+EXTERNAL SOURCES:
+  GeoSwiftRP:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GeoSwiftRP: 1c552c31b56a309fb017551b42f82ae77bc65e67
+
+PODFILE CHECKSUM: 126081959f7b7a9dc50b03a00977f2ec93b3c705
+
+COCOAPODS: 1.15.2
