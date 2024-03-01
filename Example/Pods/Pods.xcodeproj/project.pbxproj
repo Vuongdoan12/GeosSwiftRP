@@ -10,10 +10,10 @@
 		2060F8758790D0EB284D1BB55F8E6202 /* Pods-GeoSwiftRP_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E55999506C702F25479453CF99C960ED /* Pods-GeoSwiftRP_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23B79EF1DDDF73AF8D0880603921796C /* Pods-GeoSwiftRP_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 050821C2F1A4434E5DC9720343387939 /* Pods-GeoSwiftRP_Example-dummy.m */; };
 		780141988143487BF9ABA9671594B052 /* GeoSwiftRP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61557FA92FABCFD596249E9D3FE97114 /* GeoSwiftRP-dummy.m */; };
+		8424E2552B922D8E00ED9C8C /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 8424E2542B922D8E00ED9C8C /* Sources */; };
 		ACD6F8B83448A7FB02C9F868E8E0A5D1 /* GeoSwiftRP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4882634BA0CFCDD2FCC2FFE05A6A37F /* GeoSwiftRP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1D647502F9CD150DE765581B6020FC3 /* Pods-GeoSwiftRP_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA345518AC07BC3D6DFECE948171E4F /* Pods-GeoSwiftRP_Tests-dummy.m */; };
 		BCAD87B321DB94D97829CAFE48D9542D /* Pods-GeoSwiftRP_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E674B39F0D5FAF48BC3A523E3E8908AA /* Pods-GeoSwiftRP_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C74DDC72DCD0FAE7B3AB02AE775CBB98 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96F7B4B42F4FB849792EC6E0B2ECB02 /* ReplaceMe.swift */; };
 		C8B9F596C9D0EA49C6130BF83152822C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DC64BBBF67F13899A0BDE73253D35F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E127059FC254F02AB76FD9B49AC9E600 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		050821C2F1A4434E5DC9720343387939 /* Pods-GeoSwiftRP_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoSwiftRP_Example-dummy.m"; sourceTree = "<group>"; };
-		120B8E68B37FDA5795AD57C80EDEB65E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		120B8E68B37FDA5795AD57C80EDEB65E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18D69A4DC18E7F0BF0CB5D22FB1C40DA /* GeoSwiftRP-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GeoSwiftRP-Info.plist"; sourceTree = "<group>"; };
-		1BBFD50F431DD80D66A9739BFA9F5826 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1BBFD50F431DD80D66A9739BFA9F5826 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2270CD1EAE5544D7112F5894CF9BD324 /* Pods-GeoSwiftRP_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoSwiftRP_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3A63921A2F38B17E06E667183D52C037 /* GeoSwiftRP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GeoSwiftRP.modulemap; sourceTree = "<group>"; };
 		3DDCA65A24315960FBB2B82E30C35CCB /* Pods-GeoSwiftRP_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoSwiftRP_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,10 +51,11 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		770238DC82A66FF62247356C99CD3D95 /* Pods-GeoSwiftRP_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoSwiftRP_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		833815A7661A54DFABF4ED93571B66C6 /* Pods-GeoSwiftRP_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoSwiftRP_Example.modulemap"; sourceTree = "<group>"; };
+		8424E2542B922D8E00ED9C8C /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		8D281289A5E51406F0083360E1E7DD05 /* Pods-GeoSwiftRP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoSwiftRP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		983FDCC40C772143F0CAA5C66B7B09E9 /* Pods-GeoSwiftRP_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GeoSwiftRP_Example"; path = Pods_GeoSwiftRP_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C5FB79DEAE37D9850A682E001FD192 /* Pods-GeoSwiftRP_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoSwiftRP_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3ED0B8769308B4AF7520E549AEAEDA1 /* Pods-GeoSwiftRP_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoSwiftRP_Tests-Info.plist"; sourceTree = "<group>"; };
 		AEF95D5E24F1D0F7397EEE59BC90850A /* GeoSwiftRP */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeoSwiftRP; path = GeoSwiftRP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDCB10E46FB2823E164C112B1EFBF1A /* Pods-GeoSwiftRP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoSwiftRP_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,8 +67,7 @@
 		E4882634BA0CFCDD2FCC2FFE05A6A37F /* GeoSwiftRP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoSwiftRP-umbrella.h"; sourceTree = "<group>"; };
 		E55999506C702F25479453CF99C960ED /* Pods-GeoSwiftRP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoSwiftRP_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E674B39F0D5FAF48BC3A523E3E8908AA /* Pods-GeoSwiftRP_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoSwiftRP_Example-umbrella.h"; sourceTree = "<group>"; };
-		E96F7B4B42F4FB849792EC6E0B2ECB02 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GeoSwiftRP/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		EEB496A418AB6FB0F6D13BCEE477E380 /* GeoSwiftRP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GeoSwiftRP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EEB496A418AB6FB0F6D13BCEE477E380 /* GeoSwiftRP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GeoSwiftRP.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F969848B4B46374486BF305B4515EE07 /* GeoSwiftRP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoSwiftRP.debug.xcconfig; sourceTree = "<group>"; };
 		FF9C2D127E44995C237C354D3E1A43CB /* Pods-GeoSwiftRP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoSwiftRP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +122,7 @@
 		2B841CB68371871EE87EC64730859951 /* GeoSwiftRP */ = {
 			isa = PBXGroup;
 			children = (
-				E96F7B4B42F4FB849792EC6E0B2ECB02 /* ReplaceMe.swift */,
+				8424E2532B922D6300ED9C8C /* Classes */,
 				1647637D4804DB7CD02ADC8A4FC430A6 /* Pod */,
 				5854253341571951F720196D7022E799 /* Support Files */,
 			);
@@ -186,6 +186,14 @@
 				D4CE648972ED3D821D8E2FE12667EA34 /* Pods-GeoSwiftRP_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8424E2532B922D6300ED9C8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8424E2542B922D8E00ED9C8C /* Sources */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		93613F75D5605587BDDD9884B817D662 /* Pods-GeoSwiftRP_Tests */ = {
@@ -350,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8424E2552B922D8E00ED9C8C /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +393,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				780141988143487BF9ABA9671594B052 /* GeoSwiftRP-dummy.m in Sources */,
-				C74DDC72DCD0FAE7B3AB02AE775CBB98 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,8 +568,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
